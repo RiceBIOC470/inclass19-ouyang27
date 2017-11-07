@@ -101,10 +101,9 @@ hold off;
 
 
 % fit figure for xdat and ydat2
-xdat = mat(xdat);
-fit_lin = fit(xdat,ydat2,'poly1');
-fit_quad = fit(xdat,ydat2,'poly2');
-fit_cub = fit(xdat,ydat2,'poly3');
+fit_lin = fit(xdat',ydat2','poly1');
+fit_quad = fit(xdat',ydat2','poly2');
+fit_cub = fit(xdat',ydat2','poly3');
 figure; hold on;
 plot(xdat, ydat2,'r.','MarkerSize',24);
 plot(xdat, fit_lin(xdat), 'g-', 'LineWidth', 3);
