@@ -1,5 +1,13 @@
 %In class 19
 
+%GB comments
+1A 100
+1B 100 you addressed part B in part C  
+1C 0 no solution provided. 
+2. 100 
+Overall 75
+
+
 % Problem 1. Imagine a clincal trial for two drugs that are intended to lower
 % cholesterol. Assume 30 subjects are randomly divided into 3 groups that
 % either receive a placebo or one of the two treatments. The mean initials
